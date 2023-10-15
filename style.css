@@ -1,0 +1,94 @@
+.container {
+	padding: 20px;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#flower {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow:
+		0px 0px 0px 6px #fff,
+		0px 0px 0px 7px #666;
+}
+
+.center {
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 90px;
+	height: 90px;
+	background: #333;
+	border-radius: 50%;
+	box-shadow:
+		0px 0px 0px 3px #fff,
+		0px 0px 0px 4px #666;
+}
+
+.petal1, .petal2, .petal3, .petal4, .leaf1, .leaf2 {
+	position: absolute;
+	background: #f9c13f;
+	width: 80px;
+	height: 100px;
+}
+
+.petal1, .petal2, .petal3, .petal4 {
+	border-radius: 50%;
+}
+
+.petal1 {
+	top: -10px;
+	left: 50px;
+	transform: rotate(20deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.petal2 {
+	top: 50px;
+	left: -25px;
+	transform: rotate(50deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.petal3 {
+	top: 100px;
+	left: 50px;
+	transform: rotate(80deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.petal4 {
+	top: 50px;
+	left: 125px;
+	transform: rotate(110deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.leaf1 {
+	top: 60px;
+	left: -30px;
+	transform: rotate(-40deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.leaf2 {
+	top: 120px;
+	left: 90px;
+	transform: rotate(40deg);
+	box-shadow: 0px 0px 0px 3px #fff,
+				0px 0px 0px 4px #666;
+}
+
+.description {
+	margin-top: 20px;
+}
